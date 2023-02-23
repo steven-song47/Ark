@@ -1,0 +1,30 @@
+{   
+    "env": {
+        "dev": {
+            "host": "",
+            "user": "",
+            "password": ""
+        },
+        "qa": {
+            "host": "",
+            "user": "",
+            "password": ""
+        },
+        "key": "system env",
+        "token": ""
+    },
+    "numTestsKeptInMemory": 50,
+    "reporter": "mochawesome",
+    "viewportWidth": 1200,
+    "viewportHeight": 700,
+    "reporterOptions": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    },
+    "defaultCommandTimeout": 4000,
+    "execTimeout": 60000,
+    "pageLoadTimeoutpage": 60000,
+    "integrationFolder": "/Users/shiqi.song/cypress_project/cypress/integration/demo"
+}
